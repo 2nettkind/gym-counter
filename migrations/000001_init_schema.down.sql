@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS sets;
+DROP TABLE IF EXISTS workouts;
+DROP TABLE IF EXISTS custom_exercises;
+DROP TABLE IF EXISTS exercises;
+DROP TABLE IF EXISTS users;
