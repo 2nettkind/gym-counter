@@ -18,7 +18,7 @@ func (h *Handler) StartCmd(c tele.Context) error {
 	menu := &tele.ReplyMarkup{}
 
 	btn := menu.WebApp("💪 Дневник тренировок", &tele.WebApp{
-		URL: "https://jittery-twirl-duct.ngrok-free.dev",
+		URL: "https://gymtracker-kw69.onrender.com/",
 	})
 
 	menu.Inline(menu.Row(btn))
